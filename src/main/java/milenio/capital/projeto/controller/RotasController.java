@@ -24,7 +24,7 @@ public class RotasController {
 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
-    public List<Rotas> listaCliente(){
+    public List<Rotas> listaRotas(){
         return rotasService.listaRotas();
     }
 
