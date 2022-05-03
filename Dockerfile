@@ -11,10 +11,6 @@ FROM openjdk
 
 WORKDIR /app
 
-#ENV URL_DATABASE=jdbc:mysql://localhost:3306/rotas
-#ENV USERNAME_DATABASE=root
-#ENV PASSWORD_DATABASE=57886404
-
 COPY target/API-REST-0.0.1-SNAPSHOT.jar /app/API-REST-0.0.1-SNAPSHOT.jar
 
 ENTRYPOINT ["java", "-jar", "API-REST-0.0.1-SNAPSHOT.jar"]

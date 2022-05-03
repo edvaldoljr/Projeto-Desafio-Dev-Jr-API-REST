@@ -1,24 +1,11 @@
-version: "3"
+version: '3.1'
+
 services:
-  springboot-api:
-    # container_name: spring-api
-    image: edvaldodev/milenio-capital-rotas-api-rest-java-jr
+
+  db:
+    image: postgres
     restart: always
-    build: .
-    ports:
-      - 8080-8999:8080
     environment:
-      MYSQL_HOST: mysqldb
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
-      MYSQL_PORT: 3306
-  mysqldb:
-    container_name: mysqldb
-    image: mysql
-    volumes:
-      -  /home/user/Desktop/db:/var/lib/mysql
+      POSTGRES_PASSWORD: "milenio"
     ports:
-      - 3307:3306
-    environment:
-      MYSQL_DATABASE: test
-      MYSQL_ROOT_PASSWORD: root
+      - "5432:5432"

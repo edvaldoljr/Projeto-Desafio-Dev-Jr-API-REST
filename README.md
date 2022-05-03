@@ -32,25 +32,25 @@
 
 ***✅  Dockerfile [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/Dockerfile)***
 
-***✅ docker-compose com springboot e mysql [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/docker-compose.yaml)***
+***✅ docker-compose com PostgreSQL [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/docker-compose.yaml)***
 
 
 
 ## ***📝 Funcionalidades Bônus:***
 
-### ***🔺* É necessária uma ferramenta para migração de esquema de banco de dados.***
+### ***🔺 É necessária uma ferramenta para migração de esquema de banco de dados.***
 
 ***✅ Solução possível: Poderíamos utilizar a ferramenta [FLYWAY](https://flywaydb.org/)*** 
 
 
 
-### ***🔺* A empresa foi adquirida por um grande conglomerado e a  API deverá atender um alto número de requisições por segundo.***
+### ***🔺 A empresa foi adquirida por um grande conglomerado e a  API deverá atender um alto número de requisições por segundo.***
 
 ***✅ Solução possível: Criar uma escalabilidade horizontal na cloud  Ex: [aws](https://aws.amazon.com/)*** 
 
 
 
-### ***🔺* Precisamos de uma página web que implemente as funcionalidades.***
+### ***🔺 Precisamos de uma página web que implemente as funcionalidades.***
 
 ***✅ Solução possível: Criar uma página web responsiva utilizando [Angular](https://angular.io/)***
 
