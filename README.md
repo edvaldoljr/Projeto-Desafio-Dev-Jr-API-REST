@@ -2,7 +2,7 @@
 
 
 
-## ***🛑 Requisito*** 
+## ***🛑  Teste***
 
 ***Uma empresa de transporte de carga e pessoal faz algumas rotas de entrega em um grupo de cidades locais. Dada uma simplificação do modelo, todas as rotas entre essas cidades são unidirecionais. Essa empresa deseja portanto conhecer as melhores rotas entre algumas cidades e suas devidas distâncias com o intuito de definir a melhor logística de trabalho. Para isso você foi contratado com o intuito de prover endpoints REST de algumas funcionalidades comuns.***
 
@@ -28,7 +28,7 @@
 
 ***✅ Testes das Rotas / Endpoints 🚀***
 
-***✅  Docomentação Swagger [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/src/main/java/milenio/capital/projeto/config/SwaggerConfig.java)***
+***✅  Documentação Swagger [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/src/main/java/milenio/capital/projeto/config/SwaggerConfig.java)***
 
 ***✅  Dockerfile [🚀](https://github.com/edvaldoljr/Desafio-Dev-Jr-API-REST/blob/main/Dockerfile)***
 
@@ -40,19 +40,19 @@
 
 ### ***🔺* É necessária uma ferramenta para migração de esquema de banco de dados.***
 
-***✅ Solução possivel: Poderiamos utilizar a ferramenta [FLYWAY](https://flywaydb.org/)*** 
+***✅ Solução possível: Poderíamos utilizar a ferramenta [FLYWAY](https://flywaydb.org/)*** 
 
 
 
 ### ***🔺* A empresa foi adquirida por um grande conglomerado e a  API deverá atender um alto número de requisições por segundo.***
 
-***✅ Solução possivel: Criar uma escalabilidade horizontal na cloud  Ex: [aws](https://aws.amazon.com/)*** 
+***✅ Solução possível: Criar uma escalabilidade horizontal na cloud  Ex: [aws](https://aws.amazon.com/)*** 
 
 
 
 ### ***🔺* Precisamos de uma página web que implemente as funcionalidades.***
 
-***✅ Solução possivel: Criar uma página web responsiva utilanzando [Angular](https://angular.io/)***
+***✅ Solução possível: Criar uma página web responsiva utilizando [Angular](https://angular.io/)***
 
 
 
